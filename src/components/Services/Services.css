@@ -1,0 +1,10 @@
+
+.services {
+    margin-bottom: 70px;
+}
+
+
+.services > .content {
+    font-size: 26px;
+    padding: 10px 40px;
+}

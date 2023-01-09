@@ -1,0 +1,28 @@
+.team {
+  margin-bottom: 70px;
+}
+.mates {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+.bubble {
+  width: 200px;
+  height: 200px;
+  background-color: var(--secondary);
+  border-radius: 70px;
+  box-shadow: 0 8px 6px -6px black;
+  position: relative;
+}
+
+.bubble p {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+}

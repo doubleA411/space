@@ -2,13 +2,13 @@
 
 body {
   margin: 0;
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
 }
 
 :root {
   --secondary: #e54742;
   --primary: #fff7e2;
-  --blue : #062CAD;
+  --blue: #062cad;
 }
 
 .App {
