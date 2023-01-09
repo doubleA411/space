@@ -1,0 +1,9 @@
+.about {
+  margin-bottom: 70px;
+}
+.about > .content {
+  padding: 10px 40px;
+  font-size: 26px;
+  margin: 0;
+}
+

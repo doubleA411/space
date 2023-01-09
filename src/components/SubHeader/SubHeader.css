@@ -1,0 +1,15 @@
+.subheader {
+    padding: 10px 40px;
+}
+
+.subheader > .line {
+    width: 20%;
+    background-color: black;
+    height: 2px;
+}
+
+.subheader p {
+    font-size: 40px;
+    margin: 0;
+    font-weight: 700;
+}
