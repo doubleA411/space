@@ -8,6 +8,7 @@ body {
 :root {
   --secondary: #e54742;
   --primary: #fff7e2;
+  --blue : #062CAD;
 }
 
 .App {
