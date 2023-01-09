@@ -9,16 +9,12 @@ function Header() {
         <img src={logo} alt="" />
       </div>
       <div className="right-header">
-        <div className="links">
-          <div className="link">
-            <ul>
-              <li>Pricing</li>
-              <li>Services</li>
-              <li>Portfolio</li>
-              <li>Contact</li>
-            </ul>
-          </div>
-        </div>
+        <ul>
+          <li>Pricing</li>
+          <li>Services</li>
+          <li>Portfolio</li>
+          <li>Contact</li>
+        </ul>
       </div>
     </div>
   );
