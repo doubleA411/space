@@ -12,7 +12,7 @@ function Header() {
       <div className="right-header">
         <ul>
           <Link to = 'about' spy = {true} smooth = {true}> 
-            <li>Pricing</li>
+            <li>About</li>
           </Link>
           <Link to = 'services' spy = {true} smooth = {true}> 
             <li>Services</li> 
@@ -20,7 +20,7 @@ function Header() {
           <Link to = 'team' spy = {true} smooth = {true}> 
             <li>Portfolio</li> 
           </Link>
-          <Link to = '#' spy = {true} smooth = {true}> 
+          <Link to = 'contact' spy = {true} smooth = {true}> 
             <li>Contact</li> 
           </Link>
         </ul>

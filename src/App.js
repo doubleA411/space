@@ -6,6 +6,7 @@ import Hero from './components/Hero/Hero';
 import Services from './components/Services/Services';
 import Team from './components/Team/Team';
 import Contact from './components/Contact/Contact'
+import Dummy from './Dummy';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Services />
       <Team />
       <Contact />
+      <Dummy />
       <Footer />
     </div>
   );
