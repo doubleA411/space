@@ -1,7 +1,8 @@
 import React from "react";
 import "./Hero.css";
 import hero from "../../assets/hero-image.png";
-import pattern from '../../assets/pattern.png'
+import pattern from "../../assets/pattern.png";
+import { Link } from "react-scroll";
 
 function Hero() {
   return (
@@ -17,8 +18,10 @@ function Hero() {
         </div>
       </div>
       <div className="pattern">
-        <img src={pattern} alt=""/>
-        <p>Get to know us</p>
+        <img src={pattern} alt="" />
+        <Link to="about" spy={true} smooth={true}>
+          <p>Get to know us</p>
+        </Link>
       </div>
     </div>
   );

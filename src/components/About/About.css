@@ -7,3 +7,8 @@
   margin: 0;
 }
 
+@media screen and (max-width : 480px) {
+ .about > .content {
+    font-size: 12px;
+  }
+}

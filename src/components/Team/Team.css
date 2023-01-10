@@ -26,3 +26,16 @@
   font-size: 30px;
   color: white;
 }
+
+
+@media screen and (max-width : 890px) {
+  .bubble {
+    max-width: 100px;
+    width: 100%;
+    height: 120px;margin: 5px;
+  }
+
+  .bubble p {
+    font-size: 12px;
+  }
+}

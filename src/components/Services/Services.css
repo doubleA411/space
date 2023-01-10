@@ -8,3 +8,10 @@
     font-size: 26px;
     padding: 10px 40px;
 }
+
+
+@media screen and (max-width : 480px) {
+ .services > .content {
+    font-size: 12px;
+  }
+}

@@ -11,13 +11,13 @@ function Header() {
       </div>
       <div className="right-header">
         <ul>
-          <Link to = '#' spy = {true} smooth = {true}> 
+          <Link to = 'about' spy = {true} smooth = {true}> 
             <li>Pricing</li>
           </Link>
-          <Link to = '#' spy = {true} smooth = {true}> 
+          <Link to = 'services' spy = {true} smooth = {true}> 
             <li>Services</li> 
           </Link>
-          <Link to = '#' spy = {true} smooth = {true}> 
+          <Link to = 'team' spy = {true} smooth = {true}> 
             <li>Portfolio</li> 
           </Link>
           <Link to = '#' spy = {true} smooth = {true}> 

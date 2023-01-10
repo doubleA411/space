@@ -4,7 +4,7 @@ import SubHeader from "../SubHeader/SubHeader";
 
 function Services() {
   return (
-    <div className="services">
+    <div className="services" id="services">
       <SubHeader title="Services" />
       <p className="content">
         <b>What We Provide</b>
