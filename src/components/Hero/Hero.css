@@ -68,16 +68,18 @@
 }
 
 @media screen and (max-width: 480px) {
+  .hero {
+    margin-top: 230px;
+  }
   .left-hero p {
-    width: 100px;
-
-    font-size: 20px;
+    width: 190px;
+    font-size: 25px;
     margin-left: 50px;
     margin-top: 50px;
   }
   .left-hero > .circle {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
   }
   .pattern p {
     font-size: 2vw;

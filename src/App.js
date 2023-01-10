@@ -7,12 +7,15 @@ import Services from './components/Services/Services';
 import Team from './components/Team/Team';
 import Contact from './components/Contact/Contact'
 import Dummy from './Dummy';
+import Logo from './components/Logo/Logo'
+
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Hero />
+      <Logo />
       {/* Intro */}
       <About />
       <Services />
