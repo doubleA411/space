@@ -16,10 +16,10 @@ function Header() {
 
       {(menuOpened === false && mobile === true) ? 
       (<div
-      style={{backgroundColor:'black', padding : '0.5rem',borderRadius:'5px' , position : 'fixed',zIndex : '99', right : '3rem'}}
+      style={{backgroundColor:'var(--blue)', padding : '7px',borderRadius:'4px' , position : 'fixed',zIndex : '99', right : '2rem'}}
       onClick = { ()=> setMenuOpened(true)}
       >
-        <img src={Bars} alt="" style={{width : '1.5rem',height : '2.0rem'}} />
+        <img src={Bars} alt="" style={{width : '20px',height : '15px'}} />
       </div>  ):
       <div className="right-header">
       <ul className="ul-header">
