@@ -16,7 +16,7 @@ function Header() {
 
       {(menuOpened === false && mobile === true) ? 
       (<div
-      style={{backgroundColor:'black', padding : '0.5rem',borderRadius:'5px'}}
+      style={{backgroundColor:'black', padding : '0.5rem',borderRadius:'5px' , position : 'fixed',zIndex : '99', right : '2rem'}}
       onClick = { ()=> setMenuOpened(true)}
       >
         <img src={Bars} alt="" style={{width : '1.5rem',height : '2.0rem'}} />
