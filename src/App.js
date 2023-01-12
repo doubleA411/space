@@ -8,6 +8,7 @@ import Team from './components/Team/Team';
 import Contact from './components/Contact/Contact'
 import Dummy from './Dummy';
 import Logo from './components/Logo/Logo'
+import Clients from './components/Clients/Clients';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <About />
       <Services />
       <Team />
+      <Clients />
       <Contact />
       <Dummy />
       <Footer />
