@@ -22,7 +22,7 @@
   position: relative;
 }
 
-.left-hero p {
+.left-hero .type {
   width: 250px;
   font-weight: 700;
   font-size: 30px;
@@ -76,12 +76,12 @@
     font-size: 25px;
     margin-left: 50px;
     margin-top: 50px;
-  }
+  } 
   .left-hero > .circle {
     width: 150px;
     height: 150px;
-  }
-
+  } 
+  
   .pattern img {
     height: 90px;
   }

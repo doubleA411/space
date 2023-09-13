@@ -11,6 +11,8 @@ function Team() {
         <div className="bubble"><p>Santhosh D</p></div>
         <div className="bubble"><p>Nithish V</p></div>
         <div className="bubble"><p>Aakash S</p></div>
+        <div className="bubble"><p>Sai Prasath R</p></div>
+        <div className="bubble"><p>Murali Anand S</p></div>
       </div>
     </div>
   );

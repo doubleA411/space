@@ -10,7 +10,6 @@ import Dummy from './Dummy';
 import Logo from './components/Logo/Logo'
 import Clients from './components/Clients/Clients';
 
-
 function App() {
   return (
     <div className="App">

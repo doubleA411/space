@@ -5,10 +5,36 @@ import pattern from "../../assets/pattern.png";
 import { Link } from "react-scroll";
 import Logo from "../Logo/Logo";
 import hero2 from "../../assets/logo-text.png";
+import { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 
 function Hero() {
   var isMobile = false; //initiate as false
+  const textToType = 'Brand, Design & Development';
+  const [currentText, setCurrentText] = useState('');
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    const typingInterval = setInterval(() => {
+      if (currentText.length === textToType.length) {
+        clearInterval(typingInterval);
+        setIsVisible(false); // Hide the cursor or caret when typing is complete
+        setTimeout(() => {
+          // Reset the animation after a brief delay
+          setCurrentText('');
+          setIsVisible(true);
+        }, 1000); // Adjust the delay time before restarting the animation
+      } else {
+        setCurrentText(textToType.substring(0, currentText.length + 1));
+      }
+    }, 100); // Adjust the interval speed as needed
+
+    return () => {
+      clearInterval(typingInterval);
+    };
+  }, [currentText]);
+
   // device detection
   if (
     /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(
@@ -30,7 +56,20 @@ function Hero() {
         ) : (
           <div className="left-hero">
             <div className="circle">
-              <p>Brand, Design & Development</p>
+            <div className = "type">
+            <AnimatePresence>
+              {isVisible && (
+                <motion.span
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 0 }}
+                  exit={{ opacity: 0 }}
+                >
+                  |
+          </motion.span>
+        )}
+      </AnimatePresence>
+      {currentText}
+    </div>
             </div>
           </div>
         )}
